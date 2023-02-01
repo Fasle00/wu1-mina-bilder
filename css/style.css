@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: black;
 }
 .container{
     width: min(80ch, 100vw - 4rem);
@@ -32,4 +33,21 @@ body{
     padding: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+nav{
+    display: flex;
+    height: 2rem;
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+nav a{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+nav ul{
+    list-style: none;
 }
