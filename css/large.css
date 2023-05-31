@@ -21,7 +21,6 @@ nav ul{
 }
 img{
     max-width: 100%;
-    width: 100%;
     display: block;
 }
 main{
@@ -33,7 +32,6 @@ main{
 }
 .tall {
     object-fit: cover;
-    aspect-ratio: 4/3;
 }
 .ratio{
     object-fit: contain;
